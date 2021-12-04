@@ -1,0 +1,56 @@
+:root {
+  --main-font: "Roboto", "Serif";
+  --title-font: "PT Serif", "Serif";
+  --font-color: #333333;
+  --font-white-color: #ffffff;
+  --green-color: #64bd22;
+  --blue-btn-color: #0061d9;
+  --green-bg-color: hsla(94, 67%, 49%, 0.07);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+.title {
+  font-family: var(--title-font);
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 700;
+}

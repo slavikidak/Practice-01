@@ -1,0 +1,400 @@
+/* ++++++++++ Header starts here ++++++++++ */
+
+.header .box {
+  display: flex;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 14px;
+
+  border-bottom: 1px solid hsla(240, 7%, 86%, 0.3);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .text {
+  margin-left: 20px;
+}
+
+.logo .upper-text {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.logo .bottom-text {
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.header .contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header .btn {
+  margin-left: 45px;
+  padding: 12px 25px;
+
+  border-radius: 22px;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 33px;
+}
+
+/* Navigation links start */
+
+.nav .items {
+  margin-top: 20px;
+  display: flex;
+}
+
+.nav .link:not(:last-child) {
+  margin-right: 32px;
+}
+
+/* Navigation links end */
+
+/* ++++++++++ Header ends here ++++++++++ */
+
+/* ++++++++++ Hero section starts here ++++++++++ */
+
+.hero .title {
+  margin-top: 106px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  text-align: left;
+
+  /* color: var(--font-white-color); */
+}
+
+.hero .text {
+  margin-top: 8px;
+
+  font-size: 20px;
+  line-height: 140%;
+
+  /* color: var(--font-white-color); */
+}
+
+.hero .link {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 94px;
+  padding: 19px 53px 20px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-align: center;
+
+  border: 1px solid teal;
+  border-radius: 30px;
+}
+
+.round-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+.hero .round-btn {
+  margin: 184px auto 0;
+}
+
+/* ++++++++++ Hero section ends here ++++++++++ */
+
+/* ++++++++++ Tours section starts here ++++++++++ */
+
+.tours {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.tours .title {
+}
+
+.tours .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -32px;
+  margin-left: -32px;
+  flex-basis: calc(100% / 4);
+}
+
+.tours .item {
+  display: block;
+  width: 256px;
+  margin-top: 32px;
+  margin-left: 32px;
+
+  border: 1px solid #d9d9de;
+  border-radius: 6px;
+}
+
+.tours .description {
+  padding: 13px 19px 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* ++++++++++ Tours section ends here ++++++++++ */
+
+/* ++++++++++ Services section starts here ++++++++++ */
+
+.services {
+  padding-top: 44px;
+  padding-bottom: 80px;
+
+  background-color: var(--green-bg-color);
+}
+
+.services .items {
+  display: flex;
+  margin-top: 13px;
+  margin-left: -30px;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 4);
+}
+
+.services .item {
+  display: block;
+  width: 256px;
+  margin-top: 37px;
+  margin-left: 30px;
+}
+/* ++++++++++ Services section ends here ++++++++++ */
+
+/* ++++++++++ Offers section starts here ++++++++++ */
+
+.offers {
+  padding-top: 76px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid hsla(240, 7%, 86%, 1);
+}
+
+.offers .title {
+  text-align: left;
+}
+
+.offers .items {
+  display: flex;
+  margin-top: calc(41px - 32px);
+  margin-left: -30px;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 4);
+}
+
+.offers .item {
+  display: block;
+  width: 256px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+/* ++++++++++ Offers section ends here ++++++++++ */
+
+/* ++++++++++ Map section starts here ++++++++++ */
+
+.map {
+  padding-top: 70px;
+}
+
+.map .img {
+  margin-top: 37px;
+}
+
+/* ++++++++++ Map section ends here ++++++++++ */
+
+/* ++++++++++ About section starts here ++++++++++ */
+
+.about {
+  padding-top: 70px;
+  padding-bottom: 84px;
+  display: flex;
+}
+
+.about .title {
+  text-align: left;
+}
+
+.about .text {
+  margin-top: 21px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.about .text:last-of-type {
+  margin-bottom: 30px;
+}
+
+.about .link {
+  font-weight: 400;
+  text-decoration: underline;
+  color: #76767a;
+}
+/* ++++++++++ About section ends here ++++++++++ */
+
+/* ++++++++++ Gallery section starts here ++++++++++ */
+
+.gallery {
+  padding-top: 39px;
+  padding-bottom: 85px;
+  background-color: hsla(205, 90%, 60%, 0.07);
+}
+
+.gallery .box {
+  display: flex;
+  align-items: center;
+}
+
+.gallery .round-btn:last-child {
+  margin-left: 16px;
+}
+
+.gallery .link {
+  margin-left: auto;
+  margin-right: 55px;
+}
+
+.gallery .items {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -32px;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 3);
+}
+
+.gallery .item {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+/* ++++++++++ Gallery section ends here ++++++++++ */
+
+/* ++++++++++ With us section starts here ++++++++++ */
+
+.with-us {
+  padding-top: 75px;
+  padding-bottom: 54px;
+
+  border-bottom: 1px solid hsla(240, 7%, 86%, 1);
+}
+
+.with-us .title {
+  font-size: 44px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+.with-us .box {
+  margin-top: 45px;
+  display: flex;
+}
+
+.with-us .txt-box {
+  margin-left: 32px;
+}
+
+.with-us .text {
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.with-us .text:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+/* ++++++++++ With us section ends here ++++++++++ */
+
+/* ++++++++++ About company section starts here ++++++++++ */
+.about-company {
+  padding-top: 41px;
+  padding-bottom: 85px;
+}
+
+.about-company .items {
+  display: flex;
+}
+
+.about-company .items:not(:last-child) {
+  margin-right: 50px;
+}
+
+.about-company .accent-txt {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 1.3;
+  color: var(--green-color);
+}
+
+.about-company .description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+}
+/* ++++++++++ About company section ends here ++++++++++ */
+
+/* ++++++++++ Footer section starts here ++++++++++ */
+.footer {
+  padding-top: 39px;
+  padding-bottom: 45px;
+
+  background-color: #000000;
+  color: var(--font-white-color);
+}
+
+.footer-nav {
+  padding-bottom: 18px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.footer .nav-items {
+  display: flex;
+}
+
+.footer-nav .top-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-transform: uppercase;
+}
+
+.footer-nav .link {
+  margin-top: 10px;
+
+  line-height: 1.3;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.footer-nav .link:first-of-type {
+  margin-top: 18px;
+}
+
+.footer .nav-links:not(:last-child) {
+  margin-right: 76px;
+}
+
+.footer .address {
+  padding-top: 32px;
+  display: flex;
+
+  font-size: 14px;
+}
+/* ++++++++++ Footer section ends here ++++++++++ */
